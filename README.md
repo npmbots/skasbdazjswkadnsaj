@@ -1,6 +1,5 @@
-# YANG COPAD DOSA DOSA DOSA DOSA COPAS DOCA
->If you copas my code you are killed by me :v
->This is my codeeeee
+# Collection Code from BotIndo#9919
+>My suggest do not copas my code if you don't have a skill :v
 
 ```js
 const dc = require('discord.js')
