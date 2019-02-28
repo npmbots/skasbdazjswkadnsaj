@@ -1,0 +1,36 @@
+{
+  "name": "mybot",
+  "version": "1.0.0",
+  "description": "Tutorial cara membuat bot lewat termux",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npmbots/rexateam.git"
+  },
+  "author": "Hans[0]#7343",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npmbots/rexateam/issues"
+  },
+  "engines": {
+    "node": "8.x",
+    "npm": "*"
+  },
+  "homepage": "https://github.com/npmbots/rexateam#readme",
+  "dependencies": {
+    "botrend.js": "github:npmbots/botrend.js",
+    "dbdapi.js": "^0.8.0-pre",
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.2.0",
+    "enmap": "^4.7.0",
+    "fs": "0.0.1-security",
+    "hdapi.js": "github:hd-development/hdapi.js",
+    "node-fetch": "^2.3.0",
+    "quick.hook": "^1.5.1",
+    "rendapi.js": "github:RendDevelopment/rendapi.js",
+    "ytdl-core": "^0.29.1"
+  }
+}
