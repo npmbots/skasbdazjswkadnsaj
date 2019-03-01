@@ -20,4 +20,8 @@ message.channel.send('Pong!')
 });
 
 bot.login('SECRET TOKEN')
-\n
+```
+
+<p><a href="https://github.com/npmbots">Click for visit my profile or detail !</a></p>
+<progress>
+  <footer>Operated with KurokuTetsuya and RendDev</footer>
