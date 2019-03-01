@@ -19,4 +19,5 @@ message.channel.send('Pong!')
 // Soon use command handler !
 });
 
-bot.login('SECRET TOKEN')```
+bot.login('SECRET TOKEN')
+\n
