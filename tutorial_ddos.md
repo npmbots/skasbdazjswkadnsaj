@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Tutor mastah!</title>
+
 </head>
 <body bgcolor="#f4f444">
 <h1><marquee>How to DDOS With termux ??</marquee></h1>
