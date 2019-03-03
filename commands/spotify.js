@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 exports.run = (bot, message, args) => {
  
   let user = message.mentions.users.first() || message.author;
- 
+ if(!user) return;
   if (user.presence.activity !== null && user.presence.activity.type === 'LISTENING' && user.presence.activity.name === 'Spotify' && user.presence.activity.assets !== null) { // This checks all of these if statements, and if they are all true, it runs the following.
    
     let trackIMG = `https://i.scdn.co/image/${user.presence.activity.assets.largeImage.slice(8)}`;
