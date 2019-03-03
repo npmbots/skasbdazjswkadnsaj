@@ -24,19 +24,11 @@ console.log(`This bot added to ${guild.name}`);
  })
  
  
- bot.setInterval(() => {
- 	for(const guild of bot.guilds.array()) {
- 	const channel = guild.channels.filter(x => x.name === "bot-spam").first()
- if (!channel) continue;
- bot.commands.get('cat').getCat(channel, 'Cat Present')
- 
-   
-   }, 3.6e+6);
-   }
+
  
 bot.on("message", async (message) => {
 	//var serverQueue = bot.queue.get(message.guild.id);
-	const msg = message.content.toLowerCase()
+	cost msg = message.content.toLowerCase()
 const args = message.content.slice(prefix.length).trim().split(" ")
  // Message split into separate objects for example message containing 'Hello there!' would look like this: ["Hello", "there!"]
  const command = args.shift().toLowerCase();
