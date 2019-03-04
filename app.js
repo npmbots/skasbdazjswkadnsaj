@@ -8,7 +8,7 @@ const bot = new Discord.Client({disableEveryone: true})
  const RendDev = require('rendapi.js')
  const dbd = require("dbdapi.js")
  const rend = new RendDev("BOT_ID","YOUR_ID")
- 
+ const DBD = new dbd("DBD TOKEN","BOT ID","YOUR ID")
 
  bot.on("ready", async () => {
  console.log(`Iam Ready\n Running As ${bot.user.tag}\n In ${bot.guilds.size} Server`)
