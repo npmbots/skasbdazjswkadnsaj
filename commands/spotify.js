@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
  
 exports.run = (bot, message, args) => {
- 
+ if (!args[0]) return message.channel.send("**Usage : !spotify @user**")
   let user = message.mentions.users.first() || message.author;
  if(!user) return;
   if (user.presence.activity !== null && user.presence.activity.type === 'LISTENING' && user.presence.activity.name === 'Spotify' && user.presence.activity.assets !== null) { // This checks all of these if statements, and if they are all true, it runs the following.
