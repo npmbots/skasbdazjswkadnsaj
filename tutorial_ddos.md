@@ -13,7 +13,7 @@
 <p>$ clang xerxes.c -o xerxes</p>
 <p>$ ./xerxes www.target.com</p>
 <br>
-<h2>Thanks..By Mr.V1R0D</h2>
+<h2>Thanks..By Mr.V1R0D with [@npmbots] </h2>
 <hr>
 </body
 </html>
